@@ -3,13 +3,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.farmacia.adts;
-import com.farmacia.model;
 
 /**
  *
- * @author PERSONAL
+ * @author sofi_
  */
-public class ListMedDisponibles {
+public class NodeMedDis {
+  
+    NodeMedDis anterior;
+    NodeMedDis siguiente;
+
     
+public NodeMedDis() {
+ 
+        this.anterior = null;
+        this.siguiente = null;
+    }
     
 }

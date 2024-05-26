@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\PERSONAL\Desktop\Repositorios\Java\PryFarmaciaEstructuras\src\main\java\com\farmacia\adts\ListInventario.java
 C:\Users\PERSONAL\Desktop\Repositorios\Java\PryFarmaciaEstructuras\src\main\java\com\farmacia\gui\FarmaciaGUI.java
 C:\Users\PERSONAL\Desktop\Repositorios\Java\PryFarmaciaEstructuras\src\main\java\com\farmacia\model\Administrador.java
@@ -11,3 +12,14 @@ C:\Users\PERSONAL\Desktop\Repositorios\Java\PryFarmaciaEstructuras\src\main\java
 C:\Users\PERSONAL\Desktop\Repositorios\Java\PryFarmaciaEstructuras\src\main\java\com\farmacia\adts\QueueUsuarios.java
 C:\Users\PERSONAL\Desktop\Repositorios\Java\PryFarmaciaEstructuras\src\main\java\com\farmacia\model\Usuario.java
 C:\Users\PERSONAL\Desktop\Repositorios\Java\PryFarmaciaEstructuras\src\main\java\com\farmacia\adts\ListUsuarios.java
+=======
+C:\Users\sofi_\OneDrive\Documentos\NetBeansProjects\PryFarmaciaEstructuras\src\main\java\com\farmacia\model\Administrador.java
+C:\Users\sofi_\OneDrive\Documentos\NetBeansProjects\PryFarmaciaEstructuras\src\main\java\com\farmacia\adts\QueueUsuarios.java
+C:\Users\sofi_\OneDrive\Documentos\NetBeansProjects\PryFarmaciaEstructuras\src\main\java\com\farmacia\adts\ListInventario.java
+C:\Users\sofi_\OneDrive\Documentos\NetBeansProjects\PryFarmaciaEstructuras\src\main\java\com\farmacia\PryFarmaciaEstructuras.java
+C:\Users\sofi_\OneDrive\Documentos\NetBeansProjects\PryFarmaciaEstructuras\src\main\java\com\farmacia\adts\StackMedSolicitados.java
+C:\Users\sofi_\OneDrive\Documentos\NetBeansProjects\PryFarmaciaEstructuras\src\main\java\com\farmacia\adts\ListMedDisponibles.java
+C:\Users\sofi_\OneDrive\Documentos\NetBeansProjects\PryFarmaciaEstructuras\src\main\java\com\farmacia\adts\Node.java
+C:\Users\sofi_\OneDrive\Documentos\NetBeansProjects\PryFarmaciaEstructuras\src\main\java\com\farmacia\adts\ListUsuarios.java
+C:\Users\sofi_\OneDrive\Documentos\NetBeansProjects\PryFarmaciaEstructuras\src\main\java\com\farmacia\model\Usuario.java
+>>>>>>> Sofiitabonitica_rama1

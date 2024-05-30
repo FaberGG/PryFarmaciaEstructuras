@@ -4,42 +4,55 @@
  */
 package com.farmacia.model;
 
-/**
- *
- * @author sofi_
- */
-public class Medicamento {  
-    String Nombre;
-    int Gramos;
+public class Medicamento {
+
+    String nombre;
+    int Gramo;
+    int codigo;
+    String Estado;
 
     @Override
     public String toString() {
-        return "Medicamento{" + "Nombre=" + Nombre + ", Gramos=" + Gramos + '}';
+        return "Medicamento{" + "Nombre=" + nombre + "', Gramos='" + Gramo + "'Codigo'" + codigo + "'Estado'" + Estado
+                + '}';
     }
 
-    public Medicamento(String Nombre, int Gramos) {
-        this.Nombre = Nombre;
-        this.Gramos = Gramos;
+    public Medicamento(String Nombre, int Gramo, int codigo, String Estado) {
+        this.nombre = Nombre;
+        this.Gramo = Gramo;
+        this.codigo = codigo;
+        this.Estado = Estado;
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String Nombre) {
-        this.Nombre = Nombre;
+        this.nombre = Nombre;
     }
 
-    public int getGramos() {
-        return Gramos;
+    public int getGramo() {
+        return Gramo;
     }
 
-    public void setGramos(int Gramos) {
-        this.Gramos = Gramos;
+    public void setGramo(int Gramo) {
+        this.Gramo = Gramo;
     }
 
-    
-    
-    
-    
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int Codigo) {
+        this.codigo = Codigo;
+    }
+
+    public String getEstado() {
+        return Estado;
+    }
+
+    public void setEstado(String Estado) {
+        this.Estado = Estado;
+    }
 }

@@ -3,11 +3,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.farmacia.adts;
+
 import com.farmacia.model.Medicamento;
-/**
- *
- * @author PERSONAL
- */
+
+import com.farmacia.model;
+
+
     public class ListMedDisponibles {
         private NodeMedDis inicio;
         private NodeMedDis fin;
@@ -98,5 +99,6 @@ import com.farmacia.model.Medicamento;
         return false;// EL MEDICAMENTO NO ESTÁ VENCIDO 
  }
 
+    
     
 }

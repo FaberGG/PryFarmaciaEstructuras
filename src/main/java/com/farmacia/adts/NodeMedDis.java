@@ -4,6 +4,7 @@
  */
 package com.farmacia.adts;
 import com.farmacia.model.Medicamento;
+
 /**
  *
  * @author sofi_
@@ -12,6 +13,7 @@ public class NodeMedDis {
   
     NodeMedDis anterior;
     NodeMedDis siguiente;
+
     Medicamento medicamento;
 
     
@@ -52,6 +54,5 @@ public class NodeMedDis {
     public void setMedicamento(Medicamento medicamento) {
         this.medicamento = medicamento;
     }
-
 
 }

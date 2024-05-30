@@ -1,25 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.farmacia.model;
 
-/**
- *
- * @author sofi_
- */
+package com.farmacia.model;
 public class Medicamento {  
     String Nombre;
     int Gramos;
+    int codigo;
 
     @Override
     public String toString() {
-        return "Medicamento{" + "Nombre=" + Nombre + ", Gramos=" + Gramos + '}';
+        return "Medicamento{" + "Nombre=" + Nombre + ", Gramos=" + Gramos + ", codigo=" + codigo + '}';
     }
+   
 
-    public Medicamento(String Nombre, int Gramos) {
+   
+
+    public Medicamento(String Nombre, int Gramos, int codigo) {
         this.Nombre = Nombre;
         this.Gramos = Gramos;
+        this.codigo=codigo;
     }
 
     public String getNombre() {
@@ -38,8 +35,17 @@ public class Medicamento {
         this.Gramos = Gramos;
     }
 
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+  
     
     
-    
+   
     
 }

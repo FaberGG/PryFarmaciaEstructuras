@@ -1,58 +1,52 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
+
 package com.farmacia.model;
-
-public class Medicamento {
-
-    String nombre;
-    int Gramo;
+public class Medicamento {  
+    String Nombre;
+    int Gramos;
     int codigo;
-    String Estado;
 
     @Override
     public String toString() {
-        return "Medicamento{" + "Nombre=" + nombre + "', Gramos='" + Gramo + "'Codigo'" + codigo + "'Estado'" + Estado
-                + '}';
+        return "Medicamento{" + "Nombre=" + Nombre + ", Gramos=" + Gramos + ", codigo=" + codigo + '}';
     }
+   
 
-    public Medicamento(String Nombre, int Gramo, int codigo, String Estado) {
-        this.nombre = Nombre;
-        this.Gramo = Gramo;
-        this.codigo = codigo;
-        this.Estado = Estado;
+   
+
+    public Medicamento(String Nombre, int Gramos, int codigo) {
+        this.Nombre = Nombre;
+        this.Gramos = Gramos;
+        this.codigo=codigo;
     }
 
     public String getNombre() {
-        return nombre;
+        return Nombre;
     }
 
     public void setNombre(String Nombre) {
-        this.nombre = Nombre;
+        this.Nombre = Nombre;
     }
 
-    public int getGramo() {
-        return Gramo;
+    public int getGramos() {
+        return Gramos;
     }
 
-    public void setGramo(int Gramo) {
-        this.Gramo = Gramo;
-    }
+    public void setGramos(int Gramos) {
+        this.Gramos = Gramos;
+
 
     public int getCodigo() {
         return codigo;
     }
-
-    public void setCodigo(int Codigo) {
-        this.codigo = Codigo;
+      
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
     }
+ }
+  
+    
+    
+   
+    
 
-    public String getEstado() {
-        return Estado;
-    }
-
-    public void setEstado(String Estado) {
-        this.Estado = Estado;
-    }
-}

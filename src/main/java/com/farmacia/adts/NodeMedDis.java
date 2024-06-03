@@ -20,8 +20,7 @@ public class NodeMedDis {
       public NodeMedDis() {
         this.anterior = null;
         this.siguiente = null;
-        this.medicamento=medicamento;
-    }
+ }
 
     public NodeMedDis(Medicamento medicamento) {
     this.anterior = null;

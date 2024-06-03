@@ -19,6 +19,12 @@ public class QueueUsuarios {
 
     public void encolar(Usuario u) {
         NodoUsuario nuevoNodo = new NodoUsuario(u);
+        if(u.isPrioridad()){
+         System.out.println("ERES PRIORIDAD PARA LA FARMACIA, POR TANTO NO HARÁS FILA");
+         nuevoNodo.siguiente=frente;
+         frente=nuevoNodo;
+         return;
+        }
         if (fin != null) {
             fin.siguiente = nuevoNodo;
         }
@@ -26,6 +32,7 @@ public class QueueUsuarios {
         if (frente == null) {
             frente = fin;
         }
+    
     }
 
     public Usuario desencolar() {

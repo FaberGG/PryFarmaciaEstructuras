@@ -34,7 +34,7 @@ public class Medicamento {
 
     public void setGramos(int Gramos) {
         this.Gramos = Gramos;
-
+    }
 
     public int getCodigo() {
         return codigo;

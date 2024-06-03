@@ -50,4 +50,15 @@ public class ListUsuarios {
         return false;
     }
 
+    public Usuario buscarUsuario(String documento) {
+        NodoUsuario actual = cabeza;
+        while (actual != null) {
+            if (actual.usuario.getDocumento().equals(documento)) {
+                return actual.usuario;
+            }
+            actual = actual.siguiente;
+        }
+        return null;
+    }
+
 }

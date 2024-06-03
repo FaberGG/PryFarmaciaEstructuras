@@ -28,7 +28,7 @@ public class StackMedSolicitados {
         if (tope == null) {
             throw new EmptyStackException();
         }
-        Medicamento med = tope.med;
+        Medicamento med = tope.medicamento;
         tope = tope.siguiente;
         return med;
     }

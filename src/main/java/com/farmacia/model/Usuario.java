@@ -19,6 +19,10 @@ public class Usuario {
         this.discapacidad = discapacidad;
         this.medicamentosSolicitados = new StackMedSolicitados();
     }
+    
+    public void comprarMedicamento(Medicamento medicamento){
+        medicamentosSolicitados.agregarMedicamento(medicamento);
+    }
 
     public boolean isPrioridad() {
         return (edad >= 80 || discapacidad);
@@ -56,11 +60,8 @@ public class Usuario {
         this.medicamentosSolicitados = medicamentosSolicitados;
     }
 
-    public void encolarEnColaUsuarios(QueueUsuarios cola) {
-        cola.encolar(this);
-    }
+    public void vaciarPilaDefinitivamente(){
+        medicamentosSolicitados.vaciarMedicamento();
 
-    public Usuario desencolarDeColaUsuarios(QueueUsuarios cola) {
-        return cola.desencolar();
     }
 }
